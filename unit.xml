@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/Applications/XAMPP/xamppfiles/htdocs/react-date-api-bii1so1qbo7/src/tests/App.test.js" errors="0" package="/Applications/XAMPP/xamppfiles/htdocs/react-date-api-bii1so1qbo7/src/tests/App.test.js" hostname="localhost" tests="3" failures="2" time="3.463" timestamp="2019-10-31T01:50:07">
+    <properties>
+    </properties>
+    <testcase classname="DateAPI &lt;App /&gt;" name="complete app renders without crashing" time="0">
+    </testcase>
+    <testcase classname="DateAPI &lt;App /&gt;" name="check if service is used to fetch data from the API" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  &quot;10-08-2018&quot;
+Received:
+  {&quot;config&quot;: {&quot;data&quot;: undefined, &quot;headers&quot;: {&quot;Accept&quot;: &quot;application/json, text/plain, */*&quot;}, &quot;maxContentLength&quot;: -1, &quot;method&quot;: &quot;get&quot;, &quot;timeout&quot;: 0, &quot;transformRequest&quot;: {&quot;0&quot;: [Function transformRequest]}, &quot;transformResponse&quot;: {&quot;0&quot;: [Function transformResponse]}, &quot;url&quot;: &quot;https://jsonmock.hackerrank.com/datetime&quot;, &quot;validateStatus&quot;: [Function validateStatus], &quot;xsrfCookieName&quot;: &quot;XSRF-TOKEN&quot;, &quot;xsrfHeaderName&quot;: &quot;X-XSRF-TOKEN&quot;}, &quot;data&quot;: {&quot;date&quot;: &quot;10-08-2018&quot;, &quot;time&quot;: &quot;11:41:59 AM&quot;}, &quot;headers&quot;: undefined, &quot;status&quot;: 200}
+
+Difference:
+
+  Comparing two different types of values. Expected string but received object.
+    at Object.toEqual (/Applications/XAMPP/xamppfiles/htdocs/react-date-api-bii1so1qbo7/src/tests/App.test.js:31:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="DateAPI &lt;App /&gt;" name="check if button click splits and displays the date" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  &quot;Date APIDisplay DateDay: 10Month: 9Year: 2011&quot;
+Received:
+  &quot;Date APIDisplay DateDay: 09 Month: 10 Year: 2011 &quot;
+    at Object.toEqual (/Applications/XAMPP/xamppfiles/htdocs/react-date-api-bii1so1qbo7/src/tests/App.test.js:42:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
